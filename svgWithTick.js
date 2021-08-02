@@ -56,11 +56,15 @@ const useStylesLoadingComponent = makeStyles(theme => {
     },
     '@keyframes fill': {
       '100%': {
-        boxShadow: ({ passedColorCode }) => {
-          return `inset 0px 0px 0px 30px ${
-            passedColorCode ? passedColorCode : 'orange'
-          }`;
-        }
+        boxShadow: `inset 0px 0px 0px 150px lightblue`
+        // THE LINE ABOVE WORKS --- which is where we are passing a hard-coded value !!
+
+        // THE LINE BELOW DOES NOT WORK --- which is where we want to pass a dynamic color !!
+        // boxShadow: ({ passedColorCode }) => {
+        //   return `inset 0px 0px 0px 30px ${
+        //     passedColorCode ? passedColorCode : 'orange'
+        //   }`;
+        // }
       }
     }
   };

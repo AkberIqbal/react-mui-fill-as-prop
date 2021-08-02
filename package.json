@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.14.8",
-    "@material-ui/core": "3.9.2",
-    "@material-ui/styles": "4.11.4",
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
     "@types/react": "17.0.15",
     "react": "16.8.4",
     "react-dom": "16.8.4"

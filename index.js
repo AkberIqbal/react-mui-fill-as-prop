@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
 import purple from '@material-ui/core/colors/purple';
 
@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 import { DynamicFillCirle } from './svg';
 import { DynamicFillCirleWithTicks } from './svgWithTick';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: blue,
     secondary: purple
