@@ -8,6 +8,7 @@ import purple from '@material-ui/core/colors/purple';
 
 import Button from '@material-ui/core/Button';
 import { DynamicFillCirle } from './svg';
+import { DynamicFillCirleWithTicks } from './svgWithTick';
 
 const theme = createMuiTheme({
   palette: {
@@ -34,6 +35,10 @@ class App extends Component {
           <DynamicFillCirle mockColor="green" />
           <DynamicFillCirle mockColor="orange" />
           <DynamicFillCirle mockColor="red" />
+          <hr />
+          <DynamicFillCirleWithTicks mockColor="green" />
+          <DynamicFillCirleWithTicks mockColor="orange" />
+          <DynamicFillCirleWithTicks mockColor="red" />
         </MuiThemeProvider>
       </div>
     );
