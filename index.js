@@ -32,13 +32,13 @@ class App extends Component {
     return (
       <div>
         <MuiThemeProvider theme={theme}>
-          <DynamicFillCirle mockColor="green" />
-          <DynamicFillCirle mockColor="orange" />
-          <DynamicFillCirle mockColor="red" />
+          <DynamicFillCirle mockColor="#008000" />
+          <DynamicFillCirle mockColor="#ffa500" />
+          <DynamicFillCirle mockColor="#e10012" />
           <hr />
-          <DynamicFillCirleWithTicks mockColor="green" />
-          <DynamicFillCirleWithTicks mockColor="orange" />
-          <DynamicFillCirleWithTicks mockColor="red" />
+          <DynamicFillCirleWithTicks mockColor="#008000" />
+          <DynamicFillCirleWithTicks mockColor="#ffa500" />
+          <DynamicFillCirleWithTicks mockColor="#e10012" />
         </MuiThemeProvider>
       </div>
     );
